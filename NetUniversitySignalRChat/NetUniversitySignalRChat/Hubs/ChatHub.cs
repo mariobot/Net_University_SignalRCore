@@ -12,5 +12,10 @@ namespace NetUniversitySignalRChat.Hubs
         {
             await Clients.All.SendAsync("RecibirMensaje", usuario, mensaje);
         }
+
+        /*public async Task LeerMensaje()
+        {
+            await return null;
+        }*/
     }
 }
